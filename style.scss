@@ -1,3 +1,21 @@
 @import 'vars';
 @import 'mixins';
 @import 'basics';
+
+// nav
+nav.bg-body-tertiary {
+    background: transparent !important;
+}
+// main header
+.mainHeader {
+    background: linear-gradient(rgba($black, .5), rgba($black, .5)), url(img/home-hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    span {
+        color: $accents;
+    }
+    p {
+        font-size: 20px;
+    }
+}

@@ -1,1 +1,74 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 800;
+  line-height: 93px;
+  font-size: 79px;
+}
+
+.btn {
+  padding: 14px 20px;
+}
+
+.btn-success {
+  background: #00C9B5;
+  border-radius: 0;
+  border: none;
+}
+.btn-success i {
+  color: #8A60FC;
+}
+
+.btn-success:hover {
+  background: #140339;
+}
+.btn-success:hover i {
+  color: #00C9B5;
+}
+
+.py {
+  padding: 100px 0;
+}
+
+.intro {
+  background: #140339;
+  padding-top: 150px;
+}
+.intro .wrapper {
+  flex: 0 0 30%;
+  background: #EEF1FF;
+  padding: 50px;
+}
+.intro .wrapper h3 {
+  font-size: 40px;
+}
+.intro .wrapper .icon {
+  width: 145px;
+  height: 145px;
+  line-height: 145px;
+  background: #8A60FC;
+  margin-top: -130px;
+}
+.intro .wrapper .icon img {
+  width: 50%;
+}
+
+nav.bg-body-tertiary {
+  background: transparent !important;
+}
+
+.mainHeader {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/home-hero.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.mainHeader span {
+  color: #00C9B5;
+}
+.mainHeader p {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

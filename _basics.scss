@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-size: $fontSize;
+}
+h1 {
+    font-weight: 800;
+    line-height: 93px;
+    font-size: 79px;
+}
+.btn {
+    padding: 14px 20px;
+}
+.btn-success {
+    background: $accents;
+    border-radius: 0;
+    border: none;
+    i {
+        color: $primary;
+    }
+}
+.btn-success:hover {
+    background: $secondary;
+    i {
+        color: $accents;
+    }
+}
+.py {
+    padding: 100px 0;
+}
+// intro
+.intro {
+    background: $secondary;
+    padding-top: 150px;
+    .wrapper {
+        flex: 0 0 30%;
+        background: $lightgGray;
+        padding: 50px;
+        h3 {
+            font-size: 40px;
+        }
+        .icon {
+            width: 145px;
+            height: 145px;
+            line-height: 145px;
+            background: $primary;
+            margin-top: -130px;
+            img {
+                width: 50%;
+            }
+        }
+    }
+}

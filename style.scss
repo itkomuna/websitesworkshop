@@ -19,3 +19,64 @@ nav.bg-body-tertiary {
         font-size: 20px;
     }
 }
+
+// kursevi
+.kursevi {
+    background: $lightgGray;
+    .uvod {
+        @include flex($align: flex-start);
+        border-left: 20px solid $primary;
+        padding-left: 20px;
+        h2 {
+            flex: 0 0 40%;
+        }
+        p {
+            flex: 0 0 60%;
+        }
+    }
+    .lista-kurseva {
+        color: $white;
+        @include flex;
+        .kurs {
+            flex: 0 0 30%;
+            margin-bottom: 60px;
+            img {
+                width: 100%;
+                display: block;
+            }
+            .tekst {
+                border-left: 10px solid $accents;
+                background: $secondary;
+                padding: 50px 30px;
+                position: relative;
+                h3 {
+                    margin-bottom: 60px;
+                }
+                a {
+                    position: absolute;
+                    bottom: 15px;
+                    right: 15px;
+                    color: $accents;
+                    font-size: 2rem;
+                }
+                span {
+                    background: $lightgGray;
+                    border-radius: 100%;
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                    color: $primary;
+                    text-align: center;
+                    width: 75px;
+                    height: 75px;
+                    line-height: 20px;
+                    padding-top: 10px;
+                    b {
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 16px;
 }
@@ -7,6 +13,18 @@ h1 {
   font-weight: 800;
   line-height: 93px;
   font-size: 79px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 76px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
 }
 
 .btn {
@@ -31,6 +49,14 @@ h1 {
 
 .py {
   padding: 100px 0;
+}
+
+.pt {
+  padding-top: 100px;
+}
+
+.pb {
+  padding-bottom: 100px;
 }
 
 .intro {
@@ -71,4 +97,72 @@ nav.bg-body-tertiary {
 }
 .mainHeader p {
   font-size: 20px;
+}
+
+.kursevi {
+  background: #EEF1FF;
+}
+.kursevi .uvod {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-left: 20px solid #8A60FC;
+  padding-left: 20px;
+}
+.kursevi .uvod h2 {
+  flex: 0 0 40%;
+}
+.kursevi .uvod p {
+  flex: 0 0 60%;
+}
+.kursevi .lista-kurseva {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.kursevi .lista-kurseva .kurs {
+  flex: 0 0 30%;
+  margin-bottom: 60px;
+}
+.kursevi .lista-kurseva .kurs img {
+  width: 100%;
+  display: block;
+}
+.kursevi .lista-kurseva .kurs .tekst {
+  border-left: 10px solid #00C9B5;
+  background: #140339;
+  padding: 50px 30px;
+  position: relative;
+}
+.kursevi .lista-kurseva .kurs .tekst h3 {
+  margin-bottom: 60px;
+}
+.kursevi .lista-kurseva .kurs .tekst a {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: #00C9B5;
+  font-size: 2rem;
+}
+.kursevi .lista-kurseva .kurs .tekst span {
+  background: #EEF1FF;
+  border-radius: 100%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #8A60FC;
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  line-height: 20px;
+  padding-top: 10px;
+}
+.kursevi .lista-kurseva .kurs .tekst span b {
+  font-size: 1.5rem;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

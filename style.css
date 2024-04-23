@@ -59,6 +59,23 @@ h2 {
   padding-bottom: 100px;
 }
 
+nav.bg-body-tertiary {
+  background: transparent !important;
+}
+
+.mainHeader {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/home-hero.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.mainHeader span {
+  color: #00C9B5;
+}
+.mainHeader p {
+  font-size: 20px;
+}
+
 .intro {
   background: #140339;
   padding-top: 150px;
@@ -80,23 +97,6 @@ h2 {
 }
 .intro .wrapper .icon img {
   width: 50%;
-}
-
-nav.bg-body-tertiary {
-  background: transparent !important;
-}
-
-.mainHeader {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/home-hero.png);
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-.mainHeader span {
-  color: #00C9B5;
-}
-.mainHeader p {
-  font-size: 20px;
 }
 
 .kursevi {
@@ -165,4 +165,39 @@ nav.bg-body-tertiary {
 .kursevi .lista-kurseva .kurs .tekst span b {
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.onama, .tehnologije {
+  background: #140339;
+  color: white;
+}
+.onama h2, .tehnologije h2 {
+  border-left: 20px solid #00C9B5;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  margin-bottom: 80px;
+}
+
+.tehnologije {
+  background: #EEF1FF;
+  color: black;
+}
+.tehnologije .col-md-5 p {
+  font-size: 26px;
+}
+.tehnologije .col-md-7 {
+  background: #140339;
+  padding: 60px;
+}
+.tehnologije .col-md-7 h3 {
+  font-size: 40px;
+  padding-bottom: 70px;
+}
+.tehnologije .col-md-7 ul {
+  line-height: 2;
+}
+.tehnologije .col-md-7 ul a {
+  font-size: 30px;
+  color: #00C9B5;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

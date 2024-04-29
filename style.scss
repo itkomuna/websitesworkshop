@@ -138,3 +138,33 @@
         }
     }
 }
+
+// blog
+.blog {
+    background: $secondary;
+    .row:first-child {
+        border-left: 20px solid $accents;
+        padding-left: 20px;
+        h2 {
+            flex: 0 0 35%;
+        }
+        p {
+            flex: 0 0 60%;
+        }
+    }
+    .row:last-child {
+        padding-top: 100px;
+        .text {
+            background: $white;
+            padding: 30px;
+            h3 {
+                color: $accents;
+            }
+            .btn {
+                width: 50%;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+}

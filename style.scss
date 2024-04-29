@@ -14,6 +14,12 @@
     p {
         font-size: 20px;
     }
+    .btn-success:hover {
+        background: $secondary;
+        i {
+            color: $accents;
+        }
+    }
 }
 
 // intro
@@ -142,7 +148,7 @@
 // blog
 .blog {
     background: $secondary;
-    .row:first-child {
+    .row:nth-child(1) {
         border-left: 20px solid $accents;
         padding-left: 20px;
         h2 {
@@ -152,7 +158,7 @@
             flex: 0 0 60%;
         }
     }
-    .row:last-child {
+    .row:nth-child(2) {
         padding-top: 100px;
         .text {
             background: $white;
@@ -160,11 +166,40 @@
             h3 {
                 color: $accents;
             }
-            .btn {
+            .btn-success {
                 width: 50%;
                 display: block;
                 margin: auto;
+                &:hover {
+                    .btn-success:hover {
+                        background: $secondary;
+                        i {
+                            color: $accents;
+                        }
+                    }
+                }
             }
+        }
+    }
+    .btn-success:hover {
+        background: $primary;
+        i {
+            color: $white;
+        }
+    }
+}
+
+// portfolio
+.portfolio {
+    .d-flex {
+        h2 {
+            border-left: 20px solid $accents;
+            padding-left: 20px;
+            flex: 0 0 25%;
+            padding-bottom: 50px;
+        }
+        p {
+            flex: 0 0 65%;
         }
     }
 }

@@ -28,6 +28,8 @@ h4 {
 }
 .btn {
     padding: 14px 20px;
+    border-radius: 0;
+    border: none;
 }
 .btn-success {
     background: $accents;
@@ -35,12 +37,6 @@ h4 {
     border: none;
     i {
         color: $primary;
-    }
-}
-.btn-success:hover {
-    background: $secondary;
-    i {
-        color: $accents;
     }
 }
 .py {
@@ -57,3 +53,33 @@ h4 {
 nav.bg-body-tertiary {
     background: transparent !important;
 }
+
+// swiper
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    .swiper-wrapper {
+        padding-bottom: 70px;
+        padding-top: 50px;
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        img {
+            display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+    }
+    .swiper-pagination-bullet {
+        background: $white;
+        border: 1px solid $accents;
+    }
+}
+  

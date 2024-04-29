@@ -203,3 +203,11 @@
         }
     }
 }
+
+// footer
+footer {
+    background: $secondary;
+    .row:last-child {
+        border-top: 1px solid #707070;
+    }
+}

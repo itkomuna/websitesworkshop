@@ -285,4 +285,11 @@ nav.bg-body-tertiary {
 }
 .portfolio .d-flex p {
   flex: 0 0 65%;
+}
+
+footer {
+  background: #140339;
+}
+footer .row:last-child {
+  border-top: 1px solid #707070;
 }/*# sourceMappingURL=style.css.map */

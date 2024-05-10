@@ -26,6 +26,10 @@ h4 {
   line-height: 30px;
 }
 
+a {
+  transition: 0.3s linear;
+}
+
 .container {
   max-width: 1140px;
   width: 100%;
@@ -62,6 +66,16 @@ h4 {
 nav.bg-body-tertiary {
   background: transparent !important;
 }
+nav.bg-body-tertiary .nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+nav.bg-body-tertiary .nav-link:hover {
+  color: #00C9B5;
+}
+nav.bg-body-tertiary .active {
+  color: #00C9B5 !important;
+}
 
 .swiper {
   width: 100%;
@@ -89,6 +103,19 @@ nav.bg-body-tertiary {
 .swiper .swiper-pagination-bullet {
   background: white;
   border: 1px solid #00C9B5;
+}
+
+.headers {
+  height: 100vh;
+}
+
+.headers.onama, .headers.tehnologije {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/onama.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+.headers.onama .row, .headers.tehnologije .row {
+  height: 100vh;
 }
 
 .mainHeader {
@@ -290,6 +317,24 @@ nav.bg-body-tertiary {
 footer {
   background: #140339;
 }
+footer h3 {
+  color: #00C9B5;
+}
+footer .icons a {
+  color: #00C9B5;
+  font-size: 1.7rem;
+  margin-right: 10px;
+}
+footer .icons a:hover {
+  color: white;
+}
 footer .row:last-child {
   border-top: 1px solid #707070;
+}
+footer .row:last-child a {
+  color: #00C9B5;
+  text-decoration: none;
+}
+footer .row:last-child a:hover {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

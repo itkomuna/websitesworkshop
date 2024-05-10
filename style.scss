@@ -207,7 +207,27 @@
 // footer
 footer {
     background: $secondary;
+    h3 {
+        color: $accents;
+    }
+    .icons {
+        a {
+            color: $accents;
+            font-size: 1.7rem;
+            margin-right: 10px;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
     .row:last-child {
         border-top: 1px solid #707070;
+        a {
+            color: $accents;
+            text-decoration: none;
+            &:hover {
+                color: $white;
+            }
+        }
     }
 }

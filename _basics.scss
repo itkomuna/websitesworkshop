@@ -21,6 +21,9 @@ h4 {
     font-size: 20px;
     line-height: 30px;
 }
+a {
+    transition: $transition;
+}
 .container {
     max-width: 1140px;
     width: 100%;
@@ -52,6 +55,16 @@ h4 {
 // nav
 nav.bg-body-tertiary {
     background: transparent !important;
+    .nav-link {
+        color: $white;
+        font-size: 1.2rem;
+        &:hover {
+            color: $accents;
+        }
+    }
+    .active {
+        color: $accents !important;
+    }
 }
 
 // swiper
@@ -80,6 +93,20 @@ nav.bg-body-tertiary {
     .swiper-pagination-bullet {
         background: $white;
         border: 1px solid $accents;
+    }
+}
+
+// headers
+.headers  {
+    height: 100vh;
+    
+}
+.headers.onama {
+    background: linear-gradient(rgba($black, .6), rgba($black, .6)), url(img/onama.jpg);
+    background-position: center top;
+    background-size: cover;
+    .row {
+        height: 100vh;
     }
 }
   

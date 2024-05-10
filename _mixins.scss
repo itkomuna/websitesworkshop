@@ -5,3 +5,11 @@
     justify-content: $justify;
     align-items: $align;
 }
+
+@mixin border($border-color: $primary) {
+    border-width: 20px;
+    border-left-style: solid;
+    border-color: $border-color;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}

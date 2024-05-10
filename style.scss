@@ -51,14 +51,14 @@
     background: $lightgGray;
     .uvod {
         @include flex($align: flex-start);
-        border-left: 20px solid $primary;
-        padding-left: 20px;
+        @include border;
         h2 {
             flex: 0 0 40%;
         }
         p {
             flex: 0 0 60%;
         }
+        padding-bottom: 0px;
     }
     .lista-kurseva {
         color: $white;
@@ -112,9 +112,7 @@
     background: $secondary;
     color: $white;
     h2 {
-        border-left: 20px solid $accents;
-        padding-bottom: 50px;
-        padding-left: 30px;
+        @include border($border-color: $accents);
         margin-bottom: 80px;
     }
 }
@@ -149,8 +147,7 @@
 .blog {
     background: $secondary;
     .row:nth-child(1) {
-        border-left: 20px solid $accents;
-        padding-left: 20px;
+        @include border($border-color: $accents);
         h2 {
             flex: 0 0 35%;
         }
@@ -193,10 +190,8 @@
 .portfolio {
     .d-flex {
         h2 {
-            border-left: 20px solid $accents;
-            padding-left: 20px;
+            @include border($border-color: $accents);
             flex: 0 0 25%;
-            padding-bottom: 50px;
         }
         p {
             flex: 0 0 65%;
